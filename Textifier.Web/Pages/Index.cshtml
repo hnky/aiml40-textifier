@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+
+    <div class="text-center">
+        <h1 class="display-4">Aspect Based Sentiment Analysis Model</h1>
+    </div>
+
+    <form method="post">
+        <div class="form-group">
+            <label for="inp1">Scoring url:</label>
+            <input asp-for="TextifierForm.Url" class="form-control  form-control-lg" />
+        </div>
+
+        <div class="form-group">
+            <label for="inp2">Text to be analyzed:</label>
+            <textarea id="TextifierForm_Text" name="TextifierForm.Text" class="form-control  form-control-lg">loved the sweater but hated the pants</textarea>
+        </div>
+
+        <input type="submit" value="Analize" class="btn btn-success"/>
+    </form>
+
+    <div class="row">
+        <div class="col-12">
+            <h3>Results:</h3>
+        </div>
+        <div class="col-12">
+            @Html.Raw(Model.TextifierResponse)
+        </div>
+    </div>

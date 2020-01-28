@@ -1,0 +1,166 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+
+}
+.display-4 {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+label {
+    font-weight:bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+h3 {
+    margin-top:60px;
+}
+/* */
+
+#parseButton {
+    font-size: 26px;
+}
+
+#doc {
+    font-size: 26px;
+    width: 960px;
+}
+
+#response {
+    padding: 3px;
+    line-height: 90px;
+    font-size: 26px;
+}
+
+#notifications {
+    width: 150px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    background: rgb(255, 166, 0);
+    border: 1px solid #000;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.sentence {
+    display:inline-block;
+    font-size:32px;
+    line-height:32px;
+    margin-top:24px;
+}
+
+.INTENSIFIER, .OPINION, .ASPECT {
+    border-radius: 12px;
+    padding: 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+    .INTENSIFIER:after, .OPINION:after, .ASPECT:after {
+        display: inline-block;
+        margin-left: 12px;
+        top:-6px;
+        padding: 3px;
+        border: solid 1px #c0c0c0;
+        color: #c0c0c0;
+        font-size: 14px;
+        line-height: 14px;
+        border-radius: 5px;
+        position:relative;
+
+    }
+
+    .INTENSIFIER:after {
+        content: "INTENSIFIER";
+    }
+
+    .OPINION:after {
+        content: "OPINION";
+    }
+
+    .ASPECT:after {
+        content: "ASPECT";
+    }
+
+.POS {
+    background-color: rgb(0, 125, 0);
+    color: white;
+}
+
+.NEG {
+    background-color: rgb(0, 0, 125);
+    color: white;
+}
